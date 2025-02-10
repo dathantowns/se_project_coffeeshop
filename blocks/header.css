@@ -1,0 +1,126 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #fff;
+  background-image: url(/images/background_header.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__logo {
+  position: relative;
+  left: -50px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  display: flex;
+  list-style-type: none;
+  margin-top: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  opacity: 100%;
+  transition: opacity 0.3s linear;
+}
+
+.nav__link:hover {
+  opacity: 50%;
+}
+
+.nav__link_first {
+  text-decoration: none;
+  color: black;
+  padding-left: 0px;
+}
+
+.header__title {
+  max-width: 729px;
+  margin-top: 183px;
+  margin-bottom: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #3f96f3;
+}
+
+.header__description {
+  max-width: 683px;
+  margin-top: 24px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  margin-top: 94px;
+  right: 5px;
+}
+
+.header__footer {
+  margin-top: auto;
+  display: flex;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
+
+.header__footer_paragraph {
+  margin-bottom: 0;
+}
+
+.header__footer_hours {
+  display: block;
+}
+
+.header__footer_list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: block;
+}
+
+.header__footer_address {
+  margin-left: auto;
+  margin-top: auto;
+}

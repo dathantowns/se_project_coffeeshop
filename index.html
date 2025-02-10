@@ -19,7 +19,6 @@
       content="coffee, affordable coffee, new coffee place, espresso, latte"
     />
     <meta name="author" content="Dathan Towns" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
@@ -152,10 +151,129 @@
             >
           </form>
         </section>
-        <section class="menu" id="menu"></section>
-        <section class="about" id="about"></section>
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <div class="menu__cards">
+            <ul class="menu__card menu__card_first">
+              <h3 class="menu__card menu__card_title">Filter</h3>
+              <li class="menu__card menu__card_list-item">
+                Regular (12 oz)<span class="menu__card_list-divider"></span> $1
+              </li>
+              <li class="menu__card menu__card_list-item">
+                Large (16 oz)<span class="menu__card_list-divider"></span> $1.25
+              </li>
+              <li class="menu__card menu__card_list-item">
+                XL (20 oz)<span class="menu__card_list-divider"></span> $1.5
+              </li>
+              <li class="menu__card menu__card_list-item">
+                Party Size (24 oz, decaf)<span
+                  class="menu__card_list-divider"
+                ></span>
+                $1.75
+              </li>
+              <li class="menu__card menu__card_list-item">
+                Iced Coffee (16 oz)<span class="menu__card_list-divider"></span>
+                $1.25
+              </li>
+            </ul>
+            <ul class="menu__card menu__card_second">
+              <h3 class="menu__card menu__card_title">Espresso</h3>
+              <li class="menu__card menu__card_list-item">
+                Macchiato<span class="menu__card_list-divider"></span> $2.25
+              </li>
+              <li class="menu__card menu__card_list-item">
+                Cortado<span class="menu__card_list-divider"></span> $2.5
+              </li>
+              <li class="menu__card menu__card_list-item">
+                Mocha<span class="menu__card_list-divider"></span> $3
+              </li>
+              <li class="menu__card menu__card_list-item">
+                Sunrise in the Bay Area (decaf)<span
+                  class="menu__card_list-divider"
+                ></span>
+                $10
+              </li>
+            </ul>
+            <ul class="menu__card menu__card_last">
+              <h3 class="menu__card menu__card_title">Baked Goods</h3>
+              <li class="menu__card menu__card_list-item">
+                Almond Croissant<span class="menu__card_list-divider"></span> $2
+              </li>
+              <li class="menu__card menu__card_list-item">
+                Banana Bread<span class="menu__card_list-divider"></span> $1.75
+              </li>
+              <li class="menu__card menu__card_list-item">
+                Keylime Pie<span class="menu__card_list-divider"></span> $3
+              </li>
+              <li class="menu__card menu__card_list-item">
+                Blue Velvet Cake<span class="menu__card_list-divider"></span>
+                $3.75
+              </li>
+              <li class="menu__card menu__card_list-item">
+                Web Cookie<span class="menu__card_list-divider"></span> $2
+              </li>
+              <li class="menu__card menu__card_list-item">
+                Fresh Bug'uette<span class="menu__card_list-divider"></span>
+                $0.25
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            alt="footer logo"
+            src="/images/logo_coffeeshop_light.svg"
+          />
+          <div class="footer__column">
+            <h3 class="social-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list_item">
+                <img
+                  class="footer__social-icon"
+                  alt="facebook icon"
+                  src="/images/facebook_white.svg"
+                />
+                <a href=" " class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list_item">
+                <img
+                  class="footer__social-icon"
+                  alt="Instagram Icon"
+                  src="/images/instagram_white.svg"
+                />
+                <a href=" " class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__copyright">&copy;2023 Dathan Towns</div>
+      </footer>
     </div>
   </body>
 </html>
