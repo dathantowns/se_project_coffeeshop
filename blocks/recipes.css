@@ -8,7 +8,7 @@
   position: relative;
   box-sizing: border-box;
   background-color: #0a2750;
-  background-image: url(/images/background_recipes.svg);
+  background-image: url(../images/background_recipes.svg);
   background-position: center;
 }
 

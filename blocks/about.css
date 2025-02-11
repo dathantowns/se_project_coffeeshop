@@ -41,7 +41,7 @@
   max-width: 660px;
   margin-top: 19px;
   margin-bottom: 173px;
-  font-family: "Noto Serif", 'Times New Roman', serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -51,6 +51,8 @@
 
 .about__paragraph {
   margin-top: 0;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .about__paragraph:last-of-type {
@@ -63,8 +65,8 @@
   height: 426px;
   border-radius: 50%;
   position: absolute;
-  margin-left: -220px;
-  margin-top: -250px;
+  margin-left: -129px;
+  margin-top: -152px;
   z-index: 0;
 }
 

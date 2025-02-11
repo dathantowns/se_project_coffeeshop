@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__logo {
+  position: relative;
+  left: -50px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  display: flex;
+  list-style-type: none;
+  margin-top: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  opacity: 100%;
+  transition: opacity 0.3s linear;
+}
+
+.nav__link:hover {
+  opacity: 50%;
+}
+
+.nav__link_first {
+  text-decoration: none;
+  color: black;
+  padding-left: 0px;
+}

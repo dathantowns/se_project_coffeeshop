@@ -9,7 +9,7 @@
   box-sizing: border-box;
   background-position: center;
   background-color: #fff;
-  background-image: url(/images/background_menu.svg);
+  background-image: url(../images/background_menu.svg);
   background-size: cover;
   margin: 100px 100px;
 }
