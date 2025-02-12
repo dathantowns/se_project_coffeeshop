@@ -66,22 +66,22 @@
   color: #6f6f6f;
 }
 
-.header__footer_paragraph {
+.header__hours_title {
   margin-bottom: 0;
 }
 
-.header__footer_hours {
+.header__hours {
   display: block;
 }
 
-.header__footer_list {
+.header__list {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
   display: block;
 }
 
-.header__footer_address {
+.header__address {
   margin-left: auto;
   margin-top: auto;
 }
