@@ -66,15 +66,15 @@
   color: #6f6f6f;
 }
 
-.header__hours_title {
+.header__footer_column-heading {
   margin-bottom: 0;
 }
 
-.header__hours {
+.header__paragraph {
   display: block;
 }
 
-.header__list {
+.header__footer_list {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
