@@ -4,25 +4,25 @@
   margin-top: 0;
 }
 
-.card_first {
+.card__first {
   margin-bottom: 100px;
 }
 
-.card_second {
+.card__second {
   margin-left: 100px;
   margin-bottom: 100px;
 }
 
-.card_last {
+.card__last {
   margin: 0 auto;
 }
 
-.card_list-divider {
+.card__list-divider {
   border-bottom: 1px solid black;
   flex-grow: 1;
 }
 
-.card_title {
+.card__title {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -30,7 +30,7 @@
   line-height: 30px;
 }
 
-.card_list-item {
+.card__list-item {
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
@@ -41,7 +41,7 @@
   line-height: 20px;
 }
 
-.card_list-item:last-of-type {
+.card__list-item:last-of-type {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0;
