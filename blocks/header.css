@@ -66,7 +66,7 @@
   color: #6f6f6f;
 }
 
-.header__footer_column-heading {
+.header__column-heading {
   margin-bottom: 0;
 }
 
@@ -74,7 +74,7 @@
   display: block;
 }
 
-.header__footer_list {
+.header__list {
   list-style-type: none;
   padding-left: 0;
   margin: 0;

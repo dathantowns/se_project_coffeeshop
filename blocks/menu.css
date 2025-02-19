@@ -11,7 +11,8 @@
   background-color: #fff;
   background-image: url(../images/background_menu.svg);
   background-size: cover;
-  margin: 100px 100px;
+  margin-right: 100px;
+  padding: 100px 0;
 }
 
 .menu__title {

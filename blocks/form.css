@@ -25,7 +25,7 @@
 
 .form__input {
   display: block;
-  border-radius: 2px;
+  border-radius: 4px;
   max-width: 385px;
   margin-bottom: 32px;
   box-sizing: border-box;
@@ -45,6 +45,8 @@
 
 .form__checkbox {
   border-radius: 2px;
+  width: 20px;
+  height: 20px;
 }
 
 .form__label_type_checkbox {
