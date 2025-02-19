@@ -1,17 +1,15 @@
 .form {
   margin: auto;
-  max-width: 480px;
-  max-height: 536px;
-  box-sizing: border-box;
+  max-width: 385px;
   border-radius: 30px;
-  padding: 40px;
   font-family: "Inter", Arial, sans-serif;
   padding-top: 0;
 }
 
 .form__fieldset {
   border: none;
-  padding-bottom: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .form__label {

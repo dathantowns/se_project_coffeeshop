@@ -12,12 +12,8 @@
 
 .about {
   display: flex;
-  height: 475px;
-  min-height: 400px;
-  max-height: 800px;
   padding: 100px 80px 173px;
   position: relative;
-  box-sizing: border-box;
   background-color: #0a2850;
   background-position: center;
   overflow: hidden;
@@ -33,7 +29,7 @@
   font-size: 44px;
   line-height: 52px;
   color: #fff;
-  margin: 0;
+  margin: 100px 0 0 80px;
 }
 
 .about__content {
